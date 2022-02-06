@@ -2,8 +2,18 @@
 name = "utf8-rfc2279"
 version = "0.1.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+authors = ["booleancoercion <booleancoercion@gmail.com>"]
+description = "An implementation of UTF-8 according to the obsolete RFC2279"
+repository = "https://github.com/booleancoercion/utf8-rfc2279"
+license = "MIT OR Apache-2.0"
+keywords = ["text", "unicode", "utf8", "rfc2279", "no_std"]
+categories = [
+    "encoding",
+    "no-std",
+    "parsing",
+    "text-processing",
+    "internationalization",
+]
 
 [dependencies]
 tinyvec = "1.5.1"
